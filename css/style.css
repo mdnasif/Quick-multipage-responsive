@@ -1,0 +1,700 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* global css code goes here */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-3{
+    width: 25%;
+    float: left;
+}
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+.col-lg-9{
+    width: 75%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+/* header code start here */
+.header{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    border-bottom:1px solid #F0F0F0;
+}
+.header .logo{
+    width: 100px;
+    float: left;
+    display: block;
+}
+.header .logo img{
+    width: 100%;
+}
+.header .navbar{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.header .navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.header .navbar li a{
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #1C212B;
+    font-weight: 600;
+    margin: 15px 0px 0px 25px;
+    transition: 1s;
+}
+.header .navbar li a:hover, header .navbar li a:focus{
+    color: #1B70FF;
+}
+/* online-section start */
+  .online-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+  }
+  .inner-online{
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .inner-online .banner-img{
+    width: 60%;
+  }
+  .inner-online h1{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #122252;
+    margin: 0px 0px 15px;
+  }
+  .inner-online span{
+    color: #008BFD;
+  }
+  .inner-online p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0px 0px 15px;
+    color: #14253A;
+  }
+/* online-section end */
+/* successfull-section start */
+.successfull-section{
+    width: 100%;
+    float: left;
+    padding:20px 0px 60px ;
+}
+.inner-left{
+    width: 100%;
+    float: left;
+    text-align:right;
+}
+.inner-left h2{
+    font-size: 56px;
+    line-height: 66px;
+    color: #ED5A64;
+    font-weight: 700;
+    margin: 0px 20px 0px 0px;
+}
+.inner-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #122252;
+    margin: 0px 20px 0px 0px;
+}
+.inner-right{
+    font-size: 56px;
+    line-height: 66px;
+    color: #122252 ;
+    font-weight: 700;
+    margin: 0px 0px 0px 20px;
+}
+/* successfull-section end */
+/* footer part start */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    text-align: center;
+    background-color:#1B70FF ;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #f0f0f0;
+    font-weight: 400;
+}
+.footer p a{
+    font-weight:700;
+    letter-spacing: 3px;
+    color:#fff;
+}
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 40px 0px 80px;
+}
+.inner-feature{
+    width: 80%;
+    float: left;
+    padding:40px 30px ;
+    margin: 0px 10px;
+}
+.inner-feature img{
+    width: 100%;
+    height: 261px;
+}
+.inner-feature h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #122252 ;
+    margin: 10px 0px;
+}
+.inner-feature p{
+   font-size: 14px;
+   font-weight: 400;
+   color: #14253A;
+}
+.cl1{
+    background-color:#FEEBED;
+}
+.cl2{
+    background-color:#EBF9F4 ;
+}
+.cl3{
+    background-color:#FFF7E8 ;
+}
+
+/* overview page css start here */
+
+.over-view{
+    width: 100%;
+    float: left;
+}
+.over-view .img-fluid{
+    width: 100%;
+    margin: 10px 0px 0px;
+    border: 2px solid #000;
+}
+.over-view h1{
+    font-size:54px;
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.over-view p{
+    font-size:16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+    
+}
+/* overview page css end here */
+
+/* Landing page css start here */
+.landing-page{
+    width: 100%;
+    float: left;
+}
+.landing-page h1{
+    font-size:54px;
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.landing-page p{
+    font-size:16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+}
+.landing-page .img-fluid{
+    width: 100%;
+    float: left;
+    margin: 10px 0px 0px;
+    border: 2px solid #000;
+}
+.landing-section{
+    width: 100%;
+    float: left;
+    padding:20px 0px 60px ;
+}
+.landing-section{
+    width: 100%;
+    float: left;
+}
+.landing-section .inner-feature img{
+    width: 100%;
+    height: 261px;
+}
+.landing-section .inner-feature h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #122252 ;
+    margin: 10px 0px;
+}
+/* Landing page css end here */
+/*Pages section css start here */
+.pages-part{
+    width: 100%;
+    float: left;
+}
+.pages-part h1{
+    font-size:54px;
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.pages-part p{
+    font-size:16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+}
+.pages-part .img-fluid{
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+    border: 2px solid #000;
+}
+/*Pages section css end here */
+/* app pages css start here */
+.app-pages{
+    width: 100%;
+    float: left;
+}
+.app-pages h1{
+    font-size:54px;
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.app-pages p{
+    font-size:16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+}
+.app-pages .img-fluid{
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+    border: 2px solid #000;
+}
+.app-section{
+    width: 100%;
+    float: left;
+}
+.inner-app .inner-feature img{
+    width: 100%;
+    height: 261px;
+}
+/* app pages css end here */
+/* Responsive code start */
+/* low resulation mobile phone--glaxy fold */
+@media (min-width: 279px) and (max-width: 319px) {
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-6{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-9{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }  
+    .header .logo {
+        width: 25%;
+        margin: 0px 0px 0px 95px;
+    }
+    .header .navbar {
+        text-align: left;
+    }
+    .header .navbar li a {
+        font-size: 10px;
+        margin: 5px 0px 0px 10px;
+    }
+    .inner-online h1 {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .online-section {
+        padding: 25px 0px;
+    }
+    .inner-online p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .inner-online .banner-img {
+        width: 80%;
+    }
+    .inner-left h2 {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .inner-left p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px -10px 0px -10px;
+        text-align: center;
+    }
+    .inner-right {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .inner-feature {
+        padding: 10px 15px;
+        margin-bottom: 15px;
+    }
+    .inner-feature h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .inner-feature p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .inner-feature {
+        text-align: center;
+    }
+    .feature-section {
+        padding: 30px 0px 30px;
+    }
+    .footer p {
+        font-size: 8px;
+        line-height: 18px;
+    }
+  }
+
+/* most of the smartphone devices */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-6{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-9{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }  
+
+    .header .logo {
+        width: 25%;
+        margin: 0px 0px 0px 120px;
+    }
+
+    .header .navbar{
+        text-align: left;
+    }
+    .header .navbar li a{
+        font-size: 12px;
+        margin: 15px 0px 0px 15px;
+    }
+    .online-section{
+        width: 100%;
+        float: left;
+        padding: 30px 0px;
+      }
+      
+      .feature-section {
+        padding: 40px 0px 40px;
+    }
+    .successfull-section {
+        padding: 20px 0px 30px;
+    }
+      .inner-online h1 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .inner-online p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inner-online .banner-img {
+        width: 100%;
+    }
+    header .navbar li a{
+        margin: 10px 0px 0px 12px;
+    }
+
+/* header part end */
+
+.inner-right {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.inner-left h2 {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.inner-left p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+.inner-feature {
+    margin: 0px 0px 18px;
+    padding: 0px 40px 10px 30px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+  }
+
+  /* mobile phone and low resulation tablet */
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-6{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-9{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }  
+    .header .logo {
+        width: 25%;
+        margin: 0px 0px 0px 160px;
+    }
+    .online-section {
+        padding: 40px 0px;
+    }
+    .header .navbar {
+        text-align: center;
+    }
+    .header .navbar li a {
+        margin: 10px 15px 0px 0px;
+    }
+
+    .inner-online h1 {
+        font-size: 35px;
+        line-height: 45px;
+  }
+  .inner-online p {
+    margin: 0px 0px 25px;
+}
+  .inner-online .banner-img {
+    width: 90%;
+}
+.inner-left p {
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+}
+.inner-left h2 {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.inner-right {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.inner-feature {
+    margin: 0px 10px 15px 10px;
+}
+.inner-feature {
+    text-align: center;
+}
+
+
+  }
+  /* tablet, notebook */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-6{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-9{
+        width: 100%;
+        float: left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }  
+    .header .logo {
+        width: 20%;
+        margin: 0px 0px 0px 280px;
+    }
+    .header .navbar{
+        text-align: center;
+    }
+    .header .navbar li a {
+        font-size: 15px;
+        margin: 10px 15px 0px 15px;
+    }
+    .online-section{
+        width: 100%;
+        float: left;
+        padding: 30px 0px;
+      }
+      
+      .feature-section {
+        padding: 40px 0px 40px;
+    }
+    .successfull-section {
+        padding: 20px 0px 30px;
+    }
+    .inner-online h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .inner-online p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inner-online .banner-img {
+        width: 100%;
+    }
+    header .navbar li a{
+        margin: 10px 0px 0px 12px;
+    }
+    .inner-right {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 15px 0px;
+    }
+    .inner-feature {
+        padding: 20px 60px;
+        margin: 0px 8px 20px;
+    }
+
+    
+  }
